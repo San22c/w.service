@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codError: 1
+  msg_error: MyString
+  fichero_id: 
+  estandar_id: 
+
+two:
+  codError: 1
+  msg_error: MyString
+  fichero_id: 
+  estandar_id: 

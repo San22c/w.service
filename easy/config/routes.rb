@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   resources :resultados
   resources :estandars
   resources :ficheros
+  resources :resultados
+  resources :estandars
+  resources :ficheros
   get "archivos/subir_archivos"
   post "archivos/subir_archivos"
   get "archivos/listar_archivos"
