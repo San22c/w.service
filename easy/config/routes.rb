@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
-  get 'archivos/subir_archivos'
+  resources :resultados
+  resources :estandars
+  resources :ficheros
+  get "archivos/subir_archivos"
+  post "archivos/subir_archivos"
+  get "archivos/listar_archivos"
+  post "archivos/borrar_archivos"
+  get "archivos/valida"
 
-  get 'archivos/listar_archivos'
 
-  get 'archivos/borrar_archivos'
-
-  get 'archivos/guardar_comentarios'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
