@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
+  get 'archivos/subir_archivos'
+
+  get 'archivos/listar_archivos'
+
+  get 'archivos/borrar_archivos'
+
+  get 'archivos/guardar_comentarios'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'archivos#subir_archivos'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
